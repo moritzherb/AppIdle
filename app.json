@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Pocket Lifter",
+    "slug": "pocket-lifter",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#141414",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mo.pocketlifter"
+    },
+    "android": {
+      "package": "com.mo.pocketlifter",
+      "adaptiveIcon": {
+        "backgroundColor": "#141414",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "plugins": ["expo-font", "expo-splash-screen"],
+    "experiments": {
+      "baseUrl": "."
+    }
+  }
+}
